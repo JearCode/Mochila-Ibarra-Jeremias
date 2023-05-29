@@ -1,0 +1,92 @@
+===================== CHEATSHEET =====================
+
+==== INFORMACIÓN ACERCA DE COMANDOS EN GIT ====
+
+    • git help
+
+==== VERIFICAR VERSIÓN DE GIT ====
+
+    • git --version
+
+==== INICIALIZAR REPOSITORIO LOCAL ====
+
+    • git init
+
+==== CONFIGURAR USUARIO/EMAIL ====
+
+    • git config --global user.name "nombre"
+    • git config --global user.email "email"
+
+==== AÑADIR ARCHIVOS AL REPOSITORIO ====
+
+    • git add "archivo"
+
+==== AÑADIR TODOS LOS ARCHIVOS AL REPOSITORIO ====
+
+    • git add .
+
+==== ESTADO DE LOS ARCHIVOS ====
+
+    • git status
+
+==== UNA MEJOR VISTA PARA LOS ESTADOS DE LOS ARCHIVOS ====
+
+    • git status -s
+
+==== REALIZAR UN COMMIT ====
+
+    • git commit -m "Mensaje"
+
+==== MOSTRAR EL REGISTRO DE HISTORIAL DE NUESTROS COMMITS ====
+
+    • git log
+
+==== CONECTARNOS A UN REPOSTIORIO REMOTO ====
+
+    • git remote add origin <url>
+
+==== VER EL REPOSITORIO EN DONDE ESTAMOS CONECTADOS ====
+
+    • git remote -v
+
+==== ENVÍAR ARCHIVOS DEL REPOSITORIO LOCAL AL REPOSITORIO REMOTO ====
+
+    • git push origin main
+        • origin -> El repositorio remoto
+        • main -> La rama principal
+        • (De modo que le estamos diciendo a git que envíe los archivos al repositorio remoto y que estos se inserten en la rama principal llamada "main")
+
+==== VER CAMBIOS ENTRE ARCHIVOS ====
+
+    • git diff
+
+==== CLONAR UN REPOSITORIO REMOTO ====
+
+    • git clone <url> 
+
+==== ACTUALIZAR REPOSITORIO CLONADO/SINCRONIZADO ====
+
+    • git pull origin main
+
+==== VISUALIZAR TODAS LAS RAMAS DEL REPOSITORIO ====
+
+    • git branch --list
+
+==== CREAR NUEVA RAMA ====
+
+    • git branch <nombre_de_la_rama>
+
+==== ELIMINAR RAMA ====
+
+    • git branch -d
+
+==== ELIMINAR FORZADAMENTE UNA RAMA A PESAR DE LOS CAMBIOS SIN FUSIONAR ====
+
+    • git branch -D
+
+==== CAMBIAR DE UNA RAMA A OTRA ====
+
+    • git checkout nombre_rama
+    • git switch nombre_rama
+
+==========================================
