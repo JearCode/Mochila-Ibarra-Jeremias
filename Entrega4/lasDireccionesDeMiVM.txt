@@ -1,0 +1,11 @@
+*** IP PRIVADA ***
+10.0.2.15
+
+*** IP PÚBLICA ***
+181.196.88.7
+
+*** DIRECCIÓN MAC ***
+08:00:27:17:bb:aa
+
+*** ¿ES DIFERENTE A LA IP PÚBLICA Y PRIVADA DE NUESTRO HOST? ***
+Sí, es diferente.
